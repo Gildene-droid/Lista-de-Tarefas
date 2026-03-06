@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
+<meta charset="UTF-8">
 <title>Lista de Tarefas</title>
 </head>
 
@@ -16,14 +18,21 @@
 <script>
 
 function adicionarTarefa() {
-    var tarefa = document.getElementById("tarefa").value;
 
-    var li = document.createElement("li");
-    li.textContent = tarefa;
+let tarefa = document.getElementById("tarefa").value;
 
-    document.getElementById("lista").appendChild(li);
+if(tarefa === "") {
+alert("Digite uma tarefa");
+return;
+}
 
-    document.getElementById("tarefa").value = "";
+let li = document.createElement("li");
+li.textContent = tarefa;
+
+document.getElementById("lista").appendChild(li);
+
+document.getElementById("tarefa").value = "";
+
 }
 
 </script>
