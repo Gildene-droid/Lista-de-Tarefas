@@ -6,7 +6,7 @@ Aplicação web simples para gerenciamento de tarefas desenvolvida para praticar
 
 * Adicionar tarefas
 * Exibir tarefas em uma lista
-* Validação para impedir tarefas vazias
+* Validação para evitar tarefas vazias
 
 ## Tecnologias Utilizadas
 
@@ -27,4 +27,3 @@ Praticar lógica de programação, manipulação do DOM e desenvolvimento web b�
 Gildene Gomes
 
 Estudante de Análise e Desenvolvimento de Sistemas.
-
