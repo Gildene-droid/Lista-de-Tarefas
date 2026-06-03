@@ -1,4 +1,3 @@
-</> Markdown
 # Lista de Tarefas
 
 Aplicação web simples para gerenciamento de tarefas desenvolvida para praticar HTML e JavaScript.
