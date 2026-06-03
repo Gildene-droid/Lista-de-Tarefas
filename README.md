@@ -1,41 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+# Lista de Tarefas
 
-<head>
-<meta charset="UTF-8">
-<title>Lista de Tarefas</title>
-</head>
+Aplicação web simples para gerenciamento de tarefas desenvolvida para praticar HTML e JavaScript.
 
-<body>
+## Funcionalidades
 
-<h1>Minha Lista de Tarefas</h1>
+* Adicionar tarefas
+* Exibir tarefas em uma lista
+* Validação para impedir tarefas vazias
 
-<input type="text" id="tarefa" placeholder="Digite uma tarefa">
-<button onclick="adicionarTarefa()">Adicionar</button>
+## Tecnologias Utilizadas
 
-<ul id="lista"></ul>
+* HTML5
+* JavaScript
 
-<script>
+## Objetivo
 
-function adicionarTarefa() {
+Praticar lógica de programação, manipulação do DOM e desenvolvimento web básico.
 
-let tarefa = document.getElementById("tarefa").value;
+## Como Executar
 
-if (tarefa === "") {
-alert("Digite uma tarefa");
-return;
-}
+1. Baixe os arquivos do projeto.
+2. Abra o arquivo HTML no navegador.
 
-let li = document.createElement("li");
-li.innerText = tarefa;
+## Autor
 
-document.getElementById("lista").appendChild(li);
+Gildene Gomes
 
-document.getElementById("tarefa").value = "";
+Estudante de Análise e Desenvolvimento de Sistemas.
 
-}
-
-</script>
-
-</body>
-</html>
