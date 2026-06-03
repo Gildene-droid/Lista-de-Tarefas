@@ -1,17 +1,18 @@
+</> Markdown
 # Lista de Tarefas
 
 Aplicação web simples para gerenciamento de tarefas desenvolvida para praticar HTML e JavaScript.
 
 ## Funcionalidades
 
-* Adicionar tarefas
-* Exibir tarefas em uma lista
-* Validação para evitar tarefas vazias
+- Adicionar tarefas
+- Exibir tarefas em uma lista
+- Validação para evitar tarefas vazias
 
 ## Tecnologias Utilizadas
 
-* HTML5
-* JavaScript
+- HTML5
+- JavaScript
 
 ## Objetivo
 
